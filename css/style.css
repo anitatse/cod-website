@@ -2,30 +2,49 @@ body {
     background-color: white;
 }
 
-p{
+p {
     color:#0D0E0E;
-    font-size: 20pt;
+    font-size: 16pt;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
 }
 
 h1 {
     color: #0D0E0E;
-    font-size: 36pt;
+    font-size: 28pt;
     font-family: 'Lora', serif;
 }
 
 h2 {
     color: #0D0E0E;
-    font-size: 28pt;
+    font-size: 24pt;
     font-family: 'Lora', serif;
     /*teacher names will be in bold*/
 }
 
 h3 {
     color: #0D0E0E;
-    font-size: 24pt;
+    font-size: 20pt;
     font-family: 'Lora', serif;
-    /*teacher names will be in colour B63B4F*/
+    /*teacher's title will be in colour: #B63B4F*/
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #262626;
+}
+
+
+#Homepage_About_Us {
+    display: block;  
+    height: 100vh;
+    text-align: center;
+    padding: 1.5rem;
+    background-image: url(../images/Homepage_About_Us.png);
+    background-repeat: no-repeat;
 }
 
