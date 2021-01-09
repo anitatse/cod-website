@@ -1,0 +1,60 @@
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background-color: #262626;
+  margin-top: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-header {
+  font-size: 18px;
+  color: white;
+  font-family: 'Lora', serif;
+  margin: 0px;
+}
+
+.footer-smalltext {
+  font-size: 14px;
+  color: white;
+}
+
+.footer-mediumtext {
+  font-size: 16px;
+  color: white;
+  margin: 0px;
+}
+
+.footer-left-container {
+  float: left;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.footer-right-container {
+  float: right;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.footer-icon {
+  margin: 20px 0px 30px 25px;
+}
+
+#footer-logo {
+  float: left;
+  margin-bottom: 10px;
+  margin-top: auto;
+}
+
+#footer-left-contact {
+  float: left;
+  margin-right: 20px;
+}
+
+#footer-right-contact {
+  float: right;
+  margin-left: 20px;
+}

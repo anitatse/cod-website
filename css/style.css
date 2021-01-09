@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    margin: 0px;
 }
 
 p {
@@ -48,3 +49,37 @@ h3 {
     background-repeat: no-repeat;
 }
 
+a {
+    text-decoration: none;
+    color: #0D0E0E;
+}
+
+.container {
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.action-banner {
+  background-color: #B63B4F;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+@media screen and (max-width: 1050px) {
+  .container {
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+  }
+}

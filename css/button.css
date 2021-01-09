@@ -1,0 +1,24 @@
+button {
+  font-size: 16pt;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  color: #0D0E0E;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 2px solid #0D0E0E;
+  cursor: pointer;
+  background: transparent;
+  padding: 10px 80px;
+  margin: 10px;
+}
+
+.red-button {
+  background: #CA2029;
+  border: none;
+  color: #ffffff;
+}
+
+.white-button {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
