@@ -45,6 +45,13 @@ a {
   padding-bottom: 30px;
 }
 
+.action-banner {
+  background-color: #B63B4F;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
 @media screen and (max-width: 1050px) {
   .container {
     max-width: 1150px;
