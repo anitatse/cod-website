@@ -4,18 +4,14 @@
 function mobileNavBar() {
   var x = document.getElementById("navitems");
   var y = document.getElementById("topnav");
+  var logo = document.getElementById("leftnav")
   if (x.style.display === "block") {
     x.style.display = "none";
-<<<<<<< HEAD
     y.style.height = "80px";
+    logo.style.display = "block";
   } else {
     x.style.display = "block";
-    y.style.height = "400px";
-=======
-    y.style.height = "85px";
-  } else {
-    x.style.display = "block";
-    y.style.height = "350px";
->>>>>>> a2c9e1305e322a281bd2d6f9aa59bed66a77f2a9
+    y.style.height = "330px";
+    logo.style.display = "none";
   }
 }

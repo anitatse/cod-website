@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 body {
     background-color: white;
     margin: 0px;
@@ -30,28 +28,13 @@ h3 {
     font-size: 24pt;
     font-family: 'Lora', serif;
     /*teacher names will be in colour B63B4F*/
-=======
-.container {
-  max-width: 1150px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 140px;
-  padding-right: 140px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-body {
-  margin: 0px;
->>>>>>> a2c9e1305e322a281bd2d6f9aa59bed66a77f2a9
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #0D0E0E;
 }
 
-<<<<<<< HEAD
 .container {
   max-width: 1150px;
   margin-left: auto;
@@ -62,21 +45,15 @@ a {
   padding-bottom: 30px;
 }
 
-=======
->>>>>>> a2c9e1305e322a281bd2d6f9aa59bed66a77f2a9
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1050px) {
   .container {
     max-width: 1150px;
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
     padding-left: 30px;
     padding-right: 30px;
-=======
-    padding-left: 80px;
-    padding-right: 80px;
     padding-top: 30px;
     padding-bottom: 30px;
->>>>>>> a2c9e1305e322a281bd2d6f9aa59bed66a77f2a9
+
   }
 }
