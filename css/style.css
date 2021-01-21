@@ -39,9 +39,16 @@ h3 {
     background-repeat: no-repeat;
 }
 
+.full-width-image {
+  width: 100%;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
 a {
     text-decoration: none;
-    color: #0D0E0E;
+    color: inherit;
 }
 
 .container {
