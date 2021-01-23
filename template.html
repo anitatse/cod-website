@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/button.css">
+  <link rel="stylesheet" href="css/divs.css">
   <script type="text/javascript" src="js/website.js"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
@@ -41,29 +42,59 @@
   </div>
   <div style="padding:40px;"></div>
 
-  <!-- PAGE BODY -->
+  <!-- TYPOGRAPHY  -->
   <div class="container">
     <h1>header 1</h1>
     <h2>header 2</h2>
     <h3>header 3</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales cursus neque et rhoncus. Aliquam auctor, nunc eu condimentum hendrerit, nibh quam lobortis urna, in finibus sapien velit eu urna. Pellentesque pretium lacus viverra gravida pretium. Nullam ut ex viverra, ullamcorper purus vitae, tristique mauris. Donec id pharetra tortor. Nullam non odio accumsan, placerat augue lobortis, volutpat ipsum. Donec eu lacinia lacus. Proin id nisi elementum, varius felis sit amet, laoreet
     </p>
+  </div>
 
+  <!-- BUTTONS -->
+  <div class="container">
     <p><a href="index.html">Default link</a></p>
     <button class="red-button">Red Button</button>
     <button class="black-button">Black/Default button</button>
     <div style="padding:10px; background-color: black;">
       <button class="white-button">White Button</button>
     </div>
-
   </div>
 
+  <!-- FLOATING TEXT/IMGS -->
+  <div class="container">
+    <div style="display: inline-block;">
+      <img class="img-float-left" src="images/homepage/performances.png" style="max-height: 350px;">
+      <div class="text-float-right" style="height: 350px;" >
+        <p>text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right
+        text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right
+      text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right
+    text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div style="display: inline-block;">
+      <img class="img-float-right" src="images/homepage/classes.png" style="max-height: 350px;">
+      <div class="text-float-left" style="height: 350px;" >
+        <p>text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left
+        text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left
+      text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left
+    text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ACTION BANNER -->
   <div class="action-banner">
-    <p style="display:inline; color: #ffffff; margin-right: 20px;">Our classes are currently online. Please contact us for more information.</p>
-    <button class="white-button">Contact</button>
+    <p style="color: #ffffff; margin: 20px;">Our classes are currently online. Please contact us for more information.</p>
+    <button class="white-button" style="padding: 5px 40px;">Contact</button>
   </div>
 
-  <div class="full-width-image" style="background-image: url(./images/homepage/contact_us.png); height: 450px;"></div>
+  <!-- FULL WIDTH IMAGE -->
+  <div class="full-width-image" style="background-image: url(./images/homepage/contact_us.png); height: 450px; display: flex; justify-content: center; align-items: center;"></div>
+
 
   <!-- FOOTER -->
   <div class="footer">

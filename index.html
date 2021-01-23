@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/button.css">
+  <link rel="stylesheet" href="css/divs.css">
   <script type="text/javascript" src="js/website.js"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
@@ -41,14 +42,36 @@
   </div>
   <div style="padding:40px;"></div>
 
+  <div class="action-banner">
+    <p style="color: #ffffff; margin: 20px;">Our classes are currently online. Please contact us for more information.</p>
+    <button class="white-button" style="padding: 5px 40px;"><a href="contact.html">Contact</a></button>
+  </div>
   <!-- PAGE BODY -->
-  <div id="Homepage_About_Us">
+  <!-- <div id="Homepage_About_Us">
       <h1 style="color: white;">Colours of Dance Academy</h1>
       <p style="color: white; margin-left: 335px; margin-right: 335px; padding: 5rem;">Based in Richmond, B.C. and established on September 1st, 2002, the Colours Of Dance Academy (previously known as Chen Ling Academy of Dance) is proud to promote the beauty of the art of Chinese dance in Canada.</p>
+  </div> -->
+
+  <div class="container">
+    <div style="display: inline-block;">
+    <img class="img-float-left" src="images/homepage/performances.png" style="max-height: 350px;">
+    <div class="text-float-right" style="max-height: 350px;" >
+      <h3>World Class Performances</h3>
+      <p>Our Academy has a well established presence in both the local and global stage, with performances ranging from small community involvements to international competitions.</p>
+      <button class="black-button"><a href="highlights.html">Our Performances</a></button>
+    </div>
+    </div>
   </div>
 
   <div class="container">
-    <!-- BODY HERE -->
+    <div style="display: inline-block;">
+    <img class="img-float-right" src="images/homepage/classes.png" style="max-height: 350px;">
+    <div class="text-float-left" style="max-height: 350px;" >
+      <h3>Classes For Everyone</h3>
+      <p>Suitable for all ages and skill levels, our classes  are dedicated to to developing and maximizing each individual’s potential through the integration of modern teaching methods and professional standards.</p>
+      <button class="black-button"><a href="classes.html">Our Classes</a></button>
+    </div>
+    </div>
   </div>
 
   <div class="full-width-image" style="background-image: url(./images/homepage/contact_us.png); height: 450px; display: flex; justify-content: center; align-items: center;">
@@ -64,7 +87,7 @@
   <!-- FOOTER -->
   <div class="footer" style="margin-top: 0px;">
     <img id="footer-logo" src="images/icons/footer-logo.svg"/>
-    <div class="container">
+    <div id="footer-text-container" class="container">
       <div class="footer-left-container">
           <p class="footer-header">Colours of Dance Academy</p>
           <p class="footer-smalltext" id="footer-left-contact">1018 - 2560 Shell Road,<br>Richmond, BC<br>V6X 0B8</p>

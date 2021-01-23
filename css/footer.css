@@ -29,14 +29,15 @@
 
 .footer-left-container {
   float: left;
-  margin-left: 70px;
-  margin-top: 10px;
+  left: 21%;
+  position: absolute;
+  z-index: 1;
 }
 
 .footer-right-container {
   float: right;
   text-align: right;
-  margin-top: 10px;
+  z-index: 1;
 }
 
 .footer-icon {
@@ -44,9 +45,10 @@
 }
 
 #footer-logo {
+  left: 0;
+  bottom: 0;
   float: left;
-  margin-bottom: 10px;
-  margin-top: auto;
+  position: relative;
 }
 
 #footer-left-contact {
@@ -57,4 +59,64 @@
 #footer-right-contact {
   float: right;
   margin-left: 20px;
+}
+
+#footer-text-container {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+
+  .footer {
+    height: 100%;
+  }
+
+  .footer-left-container {
+    float: none;
+    display: inline-block;
+    text-align: center;
+    max-width: 350px;
+    padding: 5px;
+    position: static;
+  }
+
+  .footer-right-container {
+    float: none;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+  }
+
+  #footer-text-container {
+    text-align: center;
+    max-height: 100%;
+    max-width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .footer-icon {
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+
+  #footer-logo {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    display: block;
+  }
+
+  #footer-left-contact {
+    float: none;
+    margin-right: 0;
+  }
+
+  #footer-right-contact {
+    float: none;
+    margin-left: 0;
+  }
 }

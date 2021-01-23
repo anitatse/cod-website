@@ -30,53 +30,7 @@ h3 {
     /*teacher's title will be in colour: #B63B4F*/
 }
 
-#Homepage_About_Us {
-    display: block;
-    height: 100vh;
-    text-align: center;
-    padding: 1.5rem;
-    background-image: url(../images/Homepage_About_Us.png);
-    background-repeat: no-repeat;
-}
-
-.full-width-image {
-  width: 100%;
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
-}
-
 a {
     text-decoration: none;
     color: inherit;
-}
-
-.container {
-  max-width: 1150px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.action-banner {
-  background-color: #B63B4F;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-
-@media screen and (max-width: 1050px) {
-  .container {
-    max-width: 1150px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-
-  }
 }
