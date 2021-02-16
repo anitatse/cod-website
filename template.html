@@ -5,13 +5,14 @@
   <meta name="viewport" content= "width=device-width, user-scalable=no">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta property="og:title" content="The Colours Of Dance Academy"/>
-  <meta property="og:description" content="The Colours Of Dance Academy (previously known as Chen Ling Academy of Dance) is based in Richmond, B.C. and is proud to promote the beauty of the art of Chinese dance in Canada."/>
+  <meta property="og:description" content="The Colours Of Dance Academy (previously known as Chen Ling Academy of Dance) is based in Richmond, B.C. and is proud to promote the art of Chinese dance in Canada."/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/button.css">
   <link rel="stylesheet" href="css/divs.css">
+  <link rel="stylesheet" href="css/misc-divs.css">
   <script type="text/javascript" src="js/website.js"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
@@ -63,26 +64,16 @@
 
   <!-- FLOATING TEXT/IMGS -->
   <div class="container">
-    <div style="display: inline-block;">
-      <img class="img-float-left" src="images/homepage/performances.png" style="max-height: 350px;">
-      <div class="text-float-right" style="height: 350px;" >
-        <p>text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right
-        text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right
-      text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right
-    text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right text-float-right </p>
+    <div class="float-wrapper">
+      <div class="float-item" >
+        <h1>About</h1>
+        <p>
+          The Colours of Dance Academy (previously known as Chen Ling Academy of Dance) was established on September 1st, 2002 located in Richmond, BC. The Academy offers various levels of classes specializing in the diversity of Chinese dance and is proud to promote the excellence in the Chinese performing arts in Canada.
+          <br></br>
+Colours of Dance Academy offers a comphrehensive range of Traditional, Folk, Classical, Modern and Minority styles of Chinese dance reprotoires for all ages. If you’re interested in learning more about our dance academy, we welcome you to send us an email or give us a call on your convenience.
+        </p>
       </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div style="display: inline-block;">
-      <img class="img-float-right" src="images/homepage/classes.png" style="max-height: 350px;">
-      <div class="text-float-left" style="height: 350px;" >
-        <p>text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left
-        text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left
-      text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left
-    text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left text-float-left </p>
-      </div>
+      <img class="float-item" src="images/about/studio.png">
     </div>
   </div>
 
@@ -93,13 +84,13 @@
   </div>
 
   <!-- FULL WIDTH IMAGE -->
-  <div class="full-width-image" style="background-image: url(./images/homepage/contact_us.png); height: 450px; display: flex; justify-content: center; align-items: center;"></div>
+  <div class="full-width-image" style="background-image: url(./images/homepage/contact_us.png); height: 450px;"></div>
 
 
   <!-- FOOTER -->
   <div class="footer">
     <img id="footer-logo" src="images/icons/footer-logo.svg"/>
-    <div class="container">
+    <div id="footer-text-container" class="container">
       <div class="footer-left-container">
           <p class="footer-header">Colours of Dance Academy</p>
           <p class="footer-smalltext" id="footer-left-contact">1018 - 2560 Shell Road,<br>Richmond, BC<br>V6X 0B8</p>

@@ -1,0 +1,64 @@
+.teacher-text {
+  width: 60%;
+}
+
+.teacher-img {
+  width: 35%;
+}
+
+.chenling-titles {
+  width: 35%;
+}
+
+.classes-text {
+  width: 50%;
+}
+
+.classes-img {
+  width: 44%;
+}
+
+#chenling {
+  width: 100%;
+}
+
+@media screen and (max-width: 1060px) {
+  .teacher-text {
+    width: 100%;
+  }
+
+  .classes-text {
+    width: 100%;
+  }
+
+  .classes-img {
+    width: 100%;
+  }
+
+  .teacher-img {
+    order: 2;
+    width: auto;
+    max-width: 100%;
+    max-height: 480px;
+  }
+
+  .homepage {
+    text-align: center;
+  }
+
+  .homepage-img {
+    order: -1;
+    max-height: 350px;
+    max-width: 100%;
+    width: auto;
+  }
+
+  #chenling {
+    max-width: 100%;
+    width: auto;
+    max-height: 480px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

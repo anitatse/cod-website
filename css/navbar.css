@@ -32,10 +32,6 @@
   text-decoration: none;
 }
 
-#navitems {
-  display: block;
-}
-
 .burger {
   display:none;
 }
@@ -65,7 +61,7 @@ nav {
   .burger {
     display: inline;
   }
-  
+
   .nav {
     float: none;
     padding: 15px;
@@ -74,11 +70,16 @@ nav {
   #nav-image {
     width: 236px;
   }
-
 }
 
 @media screen and (min-width: 950px) {
   #topnav {
     height: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #nav-image {
+    width: 190px;
   }
 }

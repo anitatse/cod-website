@@ -2,10 +2,7 @@
   max-width: 1150px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 100px;
 }
 
 .action-banner {
@@ -13,6 +10,7 @@
   align-items: center;
   justify-content: center;
   display: flex;
+  margin: 0;
 }
 
 #Homepage_About_Us {
@@ -27,34 +25,17 @@
 .full-width-image {
   width: 100%;
   background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
+  background-position: center;
 }
 
-.text-float-left {
-  width: 45%;
-  float: left;
-  padding: 0px 20px;
+.float-wrapper {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
 }
 
-.text-float-right {
-  width: 45%;
-  float: right;
-  padding: 0px 20px;
-}
-
-.img-float-left {
-  float: left;
-  object-fit: cover;
-  object-position: center;
-  max-width: 50%;
-}
-
-.img-float-right {
-  float: right;
-  object-fit: cover;
-  object-position: center;
-  max-width: 50%;
+.float-item {
+  width: 47%
 }
 
 @media screen and (max-width: 1060px) {
@@ -65,49 +46,33 @@
     padding: 30px;
   }
 
+  .container h1 {
+    text-align: center;
+  }
+
+  .container h2 {
+    text-align: center;
+  }
+
+  .container h3 {
+    text-align: center;
+  }
+
   .action-banner {
     display: block;
     text-align: center;
     padding: 10px;
   }
-}
 
-
-@media screen and (max-width: 1200px) {
-  .text-float-left {
-    min-width: 100%;
-    float: none;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding: 0px;
+  .float-wrapper {
+    flex-flow: column;
   }
 
-  .text-float-right {
-    min-width: 100%;
-    float: none;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-    padding: 0px;
+  .float-item {
+    width: 100%;
   }
 
-  .img-float-left {
-    float: none;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+  .float-first {
+    order: -1;
   }
-
-  .img-float-right {
-    float: none;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-
 }
